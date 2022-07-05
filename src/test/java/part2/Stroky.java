@@ -1,10 +1,10 @@
 package part2;
-
 import org.testng.annotations.Test;
 
 //Робота зі строками
 //1. вивести строку без голосних
 //2. Вивести строку без приголосних
+//3. Вивести речення без пробілів
 @Test
 public class Stroky {
     static String stroka = "The quick brown fox jumps over the lazy dog 4 times. 2 fast 2 furious fox";
@@ -18,33 +18,29 @@ public class Stroky {
 
 //regex беремо тут: docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html
 // чому подвійна "\\" - вказано в розділі Backslashes, escapes, and quoting
+
         //2. Вивести строку без приголосних
-//        String vowels = stroka.replaceAll("[^aeiouAEIOU]", "");
-//        System.out.println(vowels);
+        String vowels = stroka.replaceAll("[^aeiouAEIOU]", "");
+        System.out.println(vowels);
 
+        stroka = stroka.replaceAll("\\s","");  //3. Вивести речення без пробілів
+        System.out.println(stroka);
 
-//        stroka = stroka.replaceAll("\\W",""); //- все що не слово
-//        System.out.println(stroka);
+        stroka = stroka.replaceAll("\\W",""); //- все що не слово
+        System.out.println(stroka);
 
-//        stroka = stroka.replaceAll("\\w",""); //- всі слова, крім пунктуації, беремо у лапки
-//        char vokrugStroki = '"';
-//        System.out.println(vokrugStroki+stroka+vokrugStroki);
+        stroka = stroka.replaceAll("\\w",""); //- всі слова, крім пунктуації, беремо у лапки
+        char vokrugStroki = '"';
+        System.out.println(vokrugStroki+stroka+vokrugStroki); //vokrugStroki - для обрамлення
 
-//        stroka = stroka.replaceAll("\\S",""); // лише пробіли, без букв, у лапках
-//        char vokrugStroki = '"';
-//        System.out.println(vokrugStroki+stroka+vokrugStroki);
+        stroka = stroka.replaceAll("\\S",""); // лише пробіли, без букв, у лапках
+        System.out.println(vokrugStroki+stroka+vokrugStroki);
 
-//        stroka = stroka.replaceAll("\\D",""); // - всі не цифри
-//        System.out.println(stroka);
+        stroka = stroka.replaceAll("\\D",""); // - всі не цифри
+        System.out.println(stroka);
 
-//        stroka = stroka.replaceAll("\\d",""); // - цифри
-//        System.out.println(stroka);
-
-        //3. Вивести речення без пробілів
-
-//        stroka = stroka.replaceAll("\\s","");
-//        System.out.println(stroka);
-
+        stroka = stroka.replaceAll("\\d",""); // - цифри
+        System.out.println(stroka);
     }
 
 }
