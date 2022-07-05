@@ -15,7 +15,7 @@ public class ReaderTest{
         if (vasya.CheckShtraf( chytachVzheVzyavKnyg> 5) {
             System.out.println("Ліміт перевищенний. Сума штрафу = " + shtraf + "грн");
         }
-        //кожна книжка,яка перевищує ліміт = 50 грн. - цикл з кроком 50?
+        //кожна книжка,яка перевищує ліміт = 50 грн. - можливо, цикл
         if (chytachVzheVzyavKnyg>5){
             System.out.println("штраф");
         } else if(chytachVzheVzyavKnyg>5){
