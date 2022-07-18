@@ -27,8 +27,4 @@ public class TestInit {
     public void goToUkrnet() {
         driver.get("https://www.ukr.net/ua/");
     }
-//    public void goToYahoo(){
-//        driver.get("https://yahoo.com/");
-//    }
-
 }

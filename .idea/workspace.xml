@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94d73e32-c57a-4ab4-9fc2-5d5f1453d921" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject1/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject1/TestInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject1/TestWebDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject1/UkrnetHomePage.java" afterDir="false" />
+    <list default="true" id="94d73e32-c57a-4ab4-9fc2-5d5f1453d921" name="Changes" comment="pageObject1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PageObject1/Pages/UkrnetHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject1/TestInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject1/TestInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject1/TestWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObject1/TestWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObject1/UkrnetHomePage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +39,69 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.TestWebDriver.runUkrnet">
-    <configuration name="TestWebDriver" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestBing.checkTrending">
+    <configuration name="TestBing.checkTrending" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PageObject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="PageObject1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PageObject1" />
+      <option name="MAIN_CLASS_NAME" value="PageObject1.TestBing" />
+      <option name="METHOD_NAME" value="checkTrending" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUkrnet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PageObject1.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PageObject1" />
+      <option name="MAIN_CLASS_NAME" value="PageObject1.TestUkrnet" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUkrnet.checkHeader" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PageObject1.Pages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PageObject1" />
+      <option name="MAIN_CLASS_NAME" value="PageObject1.TestUkrnet" />
+      <option name="METHOD_NAME" value="checkHeader" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebDriver" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PageObject1.Pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,7 +118,7 @@
       <module name="PageObject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PageObject1.*" />
+          <option name="PATTERN" value="PageObject1.Pages.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +134,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestBing.checkTrending" />
+        <item itemvalue="TestNG.TestUkrnet" />
+        <item itemvalue="TestNG.TestUkrnet.checkHeader" />
         <item itemvalue="TestNG.TestWebDriver.runUkrnet" />
         <item itemvalue="TestNG.TestWebDriver" />
       </list>
@@ -97,6 +151,14 @@
       <option name="presentableId" value="Default" />
       <updated>1657745808395</updated>
     </task>
+    <task id="LOCAL-00001" summary="pageObject1">
+      <created>1657753742409</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657753742409</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,5 +171,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pageObject1" />
+    <option name="LAST_COMMIT_MESSAGE" value="pageObject1" />
   </component>
 </project>
